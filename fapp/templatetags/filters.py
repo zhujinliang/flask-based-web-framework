@@ -1,5 +1,7 @@
 # -*- encoding:utf8 -*-
 
+from core import app
+
 
 @app.template_filter('status_zh')
 def status_filter(s):

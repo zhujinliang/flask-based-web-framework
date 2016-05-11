@@ -16,4 +16,4 @@ def listen_user(sender, instance, created=True, **kwargs):
     # Do something.
 
 
-post_save.connect(listen_order, User)
+post_save.connect(listen_user, User)

@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 
+from core import app
 from core import db
 from flask import g
 from flask.ext.login import current_user
 
-from dada.views.errorhandler import *
+from fapp.views.errorhandler import *
 
 
 

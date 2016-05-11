@@ -9,14 +9,10 @@ from core import app
 from core import cache
 from core.forms.fields import CaptchaField
 from core.forms.fields import PhoneField
-from core.tasks.coupon import coupon_to_valid_async
 from core.models.user import User
-from core.models.city import City
-from core.utils.constants import CacheKey
 
 
 __all__ = [
-    'GetMobileCaptchaForm',
     'LoginForm',
 ]
 

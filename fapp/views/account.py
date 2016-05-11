@@ -14,8 +14,7 @@ from core.views import BaseFormView
 from core.views import RedirectView
 from core.views import TemplateView
 
-from dada.forms.account import GetMobileCaptchaForm
-from dada.forms.account import LoginForm
+from fapp.forms.account import LoginForm
 
 
 

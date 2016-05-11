@@ -73,9 +73,6 @@ if app.debug:
     from flask_debugtoolbar import DebugToolbarExtension
     toolbar = DebugToolbarExtension(app)
 
-    if app.config.get('PROFILE', False):
-        from werkzeug.contrib.profiler import ProfilerMiddleware
-        app.wsgi_app = ProfilerMiddleware(app.wsgi_app, restrictions=[30])
 
 # Set server error notification.
 if not app.debug:
